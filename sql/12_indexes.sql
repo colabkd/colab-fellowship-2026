@@ -1,0 +1,10 @@
+CREATE INDEX idx_students_track ON students(track);
+CREATE INDEX idx_students_cohort ON students(cohort);
+CREATE INDEX idx_team_members_student ON team_members(student_id);
+CREATE INDEX idx_team_members_team ON team_members(team_id);
+CREATE INDEX idx_sprints_project ON sprints(project_id);
+CREATE INDEX idx_tasks_sprint_status ON tasks(sprint_id, status);
+CREATE INDEX idx_tasks_assigned_to ON tasks(assigned_to);
+CREATE INDEX idx_peer_evaluations_target ON peer_evaluations(evaluated_student_id);
+CREATE INDEX idx_attendance_student_date ON attendance(student_id, date);
+CREATE INDEX idx_contribution_scores_sprint ON contribution_scores(sprint_id);

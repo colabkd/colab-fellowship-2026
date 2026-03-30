@@ -1,0 +1,13 @@
+\i sql/00_types.sql
+\i sql/01_students.sql
+\i sql/02_roles.sql
+\i sql/03_projects.sql
+\i sql/04_teams.sql
+\i sql/05_team_members.sql
+\i sql/06_sprints.sql
+\i sql/07_tasks.sql
+\i sql/08_task_reviews.sql
+\i sql/09_peer_evaluations.sql
+\i sql/10_attendance.sql
+\i sql/11_contribution_scores.sql
+\i sql/12_indexes.sql
